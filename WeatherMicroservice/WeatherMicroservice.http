@@ -1,0 +1,11 @@
+@WeatherMicroservice_HostAddress = http://localhost:5250
+
+GET {{WeatherMicroservice_HostAddress}}/Weather/GetWeather
+Accept: application/json
+
+###
+
+GET {{WeatherMicroservice_HostAddress}}/Weather/GetWeather/London
+Accept: application/json
+
+###
